@@ -1,4 +1,4 @@
-package com.bmarius;
+package com.bmarius.server;
 
 import akka.actor.DeadLetter;
 import akka.actor.UntypedActor;

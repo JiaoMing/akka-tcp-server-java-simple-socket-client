@@ -1,17 +1,18 @@
-package com.bmarius;
+package com.bmarius.server;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.DeadLetter;
 import akka.actor.Props;
 import akka.io.Tcp;
+import com.bmarius.utils.StaticValues;
 
 /**
  * Created by mbd on 26.09.2014.
  * main class.
  * {@see http://doc.akka.io/docs/akka/snapshot/java/io-tcp.html} for more information
  */
-public class Main {
+public class MainServer {
 
     public static void main(String... args){
         /**

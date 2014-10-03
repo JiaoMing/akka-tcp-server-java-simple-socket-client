@@ -1,4 +1,4 @@
-package com.bmarius;
+package com.bmarius.server;
 
 import akka.actor.ActorRef;
 import akka.actor.UntypedActor;
@@ -7,9 +7,11 @@ import akka.event.LoggingAdapter;
 import akka.io.Tcp;
 import akka.io.TcpMessage;
 import akka.util.ByteString;
+import com.bmarius.utils.ACK;
+import com.bmarius.utils.Message;
+import com.bmarius.utils.StaticValues;
 
 import java.io.*;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created by mbd on 03.10.2014.

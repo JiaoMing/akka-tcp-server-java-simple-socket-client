@@ -1,4 +1,4 @@
-package com.bmarius;
+package com.bmarius.utils;
 
 import java.io.Serializable;
 
@@ -45,7 +45,7 @@ public class Message implements Serializable {
 
     @Override
     public String toString() {
-        return "Message{" +
+        return "com.bmarius.Message{" +
                 "message='" + message + '\'' +
                 '}';
     }

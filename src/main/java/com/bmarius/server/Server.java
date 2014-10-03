@@ -1,14 +1,13 @@
-package com.bmarius;
+package com.bmarius.server;
 
 import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedActor;
 import akka.io.Tcp;
 import akka.io.TcpMessage;
+import com.bmarius.utils.StaticValues;
 
 import java.net.InetSocketAddress;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by mbd on 29.09.2014.

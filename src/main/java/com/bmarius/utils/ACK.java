@@ -1,16 +1,17 @@
-package com.bmarius;
+package com.bmarius.utils;
 
 import java.io.Serializable;
 
 /**
  * Created by mbd on 03.10.2014.
- * ACK class. Send ack after a message is received
+ * ACK class. Receive ack after a message is received from server
  */
 public class ACK implements Serializable{
 
     private static final long serialVersionUID = 4L;
 
-    private ACK(){};
+    private ACK(){
+    };
 
     public static ACK newInstace(){
         return new ACK();
@@ -45,7 +46,7 @@ public class ACK implements Serializable{
 
     @Override
     public String toString() {
-        return "ACK{" +
+        return "com.bmarius.ACK{" +
                 "message='" + message + '\'' +
                 '}';
     }
